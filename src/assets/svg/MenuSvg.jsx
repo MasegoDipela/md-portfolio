@@ -1,11 +1,6 @@
 const MenuSvg = ({ openNavigation }) => {
   return (
-    <svg
-      className="overflow-visible"
-      width="20"
-      height="12"
-      viewBox="0 0 20 12"
-    >
+    <svg className="overflow-visible" width="12" height="8" viewBox="0 0 20 12">
       <rect
         className="transition-all origin-center"
         y={openNavigation ? "5" : "0"}
