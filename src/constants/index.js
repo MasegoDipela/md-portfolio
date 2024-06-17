@@ -3,7 +3,6 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
   chromecast,
   disc02,
   discord,
@@ -75,8 +74,8 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [
-  "src/assets/company-logoslogo1.png",
-  "src/assets/company-logoslogo2.png",
+  "src/assets/company-logos/logo1.png",
+  "src/assets/company-logos/logo2.png",
   "src/assets/company-logos/logo3.png",
 ];
 
@@ -244,56 +243,56 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const education = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-1.svg",
+    title: "Higher Certificate - Information Technology",
+    text: "The qualification aims to develop an integrated conceptual understanding, synthesis and application of information technology principles.",
+    backgroundUrl: "assets/education/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: "src/assets/education/mancosa.png",
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-2.svg",
+    title: "Bachelor of Commerce - Information Technology",
+    text: "An accredited IT Management Degree will enable you to offer and manage business solutions through information supported technology.",
+    backgroundUrl: "assets/education/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: "src/assets/education/mancosa.png",
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "assets/benefits/card-3.svg",
+    title: "CS50: Introduction to Computer Science",
+    text: "Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike.",
+    backgroundUrl: "assets/education/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: "src/assets/education/harvard.png",
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-4.svg",
+    title: "Crash Course on Python - Google IT Automation with Python",
+    text: "This course by Google is designed to provide IT professionals with in-demand skills -- including Python, Git, and IT automation",
+    backgroundUrl: "assets/education/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: "src/assets/education/google.png",
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-5.svg",
+    title: "Building on Hedera - a course by The Hashgraph Association",
+    text: "an online course created by The Hashgraph Association and Swirlds Labs to create a path for those looking to build on distributed ledger technology/blockchain.",
+    backgroundUrl: "assets/education/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: "src/assets/education/hedera.png",
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-6.svg",
+    title: "Financial Technology (Fintech) Innovations",
+    text: "This specialization by the University of Michigan ensures the learner is able to explain concepts in payment technologies, cryptocurrency and blockchain, credit scores and technologies, and smart investing techniques.",
+    backgroundUrl: "assets/education/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: "src/assets/education/michigan.png",
   },
 ];
 
