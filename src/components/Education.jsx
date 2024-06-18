@@ -44,7 +44,7 @@ const Education = () => {
 
               <div
                 className="absolute inset-0.5 bg-n-8"
-                style={{ clipPath: "url(#benefits)" }}
+                style={{ clipPath: "url(#education)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-20">
                   {item.imageUrl && (
