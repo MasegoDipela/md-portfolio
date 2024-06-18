@@ -5,21 +5,17 @@ import {
   benefitIcon4,
   chromecast,
   disc02,
-  discord,
   discordBlack,
   facebook,
   figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
   photoshop,
   plusSquare,
-  protopie,
   raindrop,
   recording01,
   recording03,
@@ -28,7 +24,6 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
@@ -130,50 +125,61 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Here are some awesome tools I have learnt to use over the years. Please note that this list is not exauhstive. It is meant to illustrate areas where i have the most experience.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "HTML5",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Component libraries (Tailwind CSS)",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "JavaScript (React)",
+  },
+  {
+    id: "3",
+    title: "NextJS",
+  },
+  {
+    id: "4",
+    title: "UI/UX (Figma)",
+  },
+  {
+    id: "5",
+    title: "SQL",
   },
 ];
 
 export const collabApps = [
   {
     id: "0",
-    title: "Figma",
-    icon: figma,
-    width: 26,
-    height: 36,
+    title: "HTML5",
+    icon: "src/assets/icons/html.png",
+    width: 28,
+    height: 38,
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Tailwind",
+    icon: "src/assets/icons/tailwind.png",
     width: 34,
     height: 36,
   },
   {
     id: "2",
-    title: "Discord",
-    icon: discord,
+    title: "React",
+    icon: "src/assets/icons/react.png",
     width: 36,
     height: 28,
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "Nextjs",
+    icon: "src/assets/icons/nextjs.png",
     width: 34,
     height: 35,
   },
@@ -186,16 +192,16 @@ export const collabApps = [
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Figma",
+    icon: figma,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
-    width: 26,
+    title: "SQL",
+    icon: "src/assets/icons/sql.png",
+    width: 40,
     height: 34,
   },
   {
