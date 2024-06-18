@@ -38,8 +38,8 @@ const Header = () => {
         <a className="block w-[12rem] xl:mr-8" href="#hero">
           <img
             src="src\assets\devfolio.png"
-            width={190}
-            height={40}
+            width={300}
+            height={150}
             alt="Devfolio"
           />
         </a>

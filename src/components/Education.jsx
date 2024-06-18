@@ -34,7 +34,7 @@ const Education = () => {
                     alt={item.title}
                   />
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
+                    {item.status}
                   </p>
                   <Arrow />
                 </div>
@@ -46,7 +46,7 @@ const Education = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-20">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}

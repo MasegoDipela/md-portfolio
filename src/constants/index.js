@@ -251,6 +251,8 @@ export const education = [
     backgroundUrl: "assets/education/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: "src/assets/education/mancosa.png",
+    status: "Completed in 2023",
+    link: "https://www.mancosa.co.za/programme/higher-certificate-in-information-technology/",
   },
   {
     id: "1",
@@ -260,14 +262,18 @@ export const education = [
     iconUrl: benefitIcon2,
     imageUrl: "src/assets/education/mancosa.png",
     light: true,
+    status: "In progress till 2026",
+    link: "https://www.mancosa.co.za/programme/bachelor-of-commerce-in-information-and-technology-management/",
   },
   {
     id: "2",
-    title: "CS50: Introduction to Computer Science",
+    title: "CS50 - Introduction to Computer Science",
     text: "Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike.",
     backgroundUrl: "assets/education/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: "src/assets/education/harvard.png",
+    status: "Completed in 2023",
+    link: "https://pll.harvard.edu/course/cs50-introduction-computer-science",
   },
   {
     id: "3",
@@ -277,6 +283,8 @@ export const education = [
     iconUrl: benefitIcon4,
     imageUrl: "src/assets/education/google.png",
     light: true,
+    status: "Completed in 2022",
+    link: "https://www.coursera.org/learn/python-crash-course",
   },
   {
     id: "4",
@@ -285,6 +293,8 @@ export const education = [
     backgroundUrl: "assets/education/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: "src/assets/education/hedera.png",
+    status: "In progress till 2024",
+    link: "https://hashgraphdev.com/",
   },
   {
     id: "5",
@@ -293,6 +303,8 @@ export const education = [
     backgroundUrl: "assets/education/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: "src/assets/education/michigan.png",
+    status: "Completed in 2021",
+    link: "https://online.umich.edu/series/financial-technology-innovations/",
   },
 ];
 
