@@ -42,13 +42,13 @@ export const navigation = [
   },
   {
     id: "2",
-    title: "Projects",
-    url: "#projects",
+    title: "Skills",
+    url: "#skills",
   },
   {
     id: "3",
-    title: "Process",
-    url: "#process",
+    title: "Projects",
+    url: "#projects",
   },
   /*{
     id: "4",

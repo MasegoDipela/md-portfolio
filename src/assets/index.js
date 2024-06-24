@@ -36,9 +36,16 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
-import service1 from "./services/service-1.png";
-import service2 from "./services/service-2.png";
-import service3 from "./services/service-3.png";
+import akili from "./projects/akili.png";
+import akili2 from "./projects/akili2.png";
+import akili3 from "./projects/akili3.png";
+import akili4 from "./projects/akili4.png";
+import akili5 from "./projects/akili5.png";
+import abi from "./projects/abi.png";
+import abi2 from "./projects/abi2.png";
+import abi3 from "./projects/abi3.png";
+import abi4 from "./projects/abi4.png";
+import mooc1 from "./projects/mooc1.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -76,6 +83,16 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  akili,
+  akili2,
+  akili3,
+  akili4,
+  akili5,
+  abi,
+  abi2,
+  abi3,
+  abi4,
+  mooc1,
   brainwave,
   check,
   check2,
@@ -111,9 +128,6 @@ export {
   protopie,
   raindrop,
   slack,
-  service1,
-  service2,
-  service3,
   lines,
   stars,
   coins,

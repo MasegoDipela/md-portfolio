@@ -40,7 +40,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             From concept to deployment, I collaborate with clients to understand
             their unique needs and bring their vision to life. I also need more
-            money to feed by book addiction.
+            money to feed my book addiction.
           </p>
           <Button href="/downloadcv" white>
             Download CV
