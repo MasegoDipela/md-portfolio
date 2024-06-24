@@ -20,12 +20,12 @@ const Hero = () => {
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      id="hero"
+      id="aboutme"
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Let's join forces and &nbsp;create&nbsp;something {` `}
+            Let&apos;s join forces and &nbsp;create&nbsp;something {` `}
             <span className="inline-block relative">
               amazing
               <img
@@ -42,9 +42,11 @@ const Hero = () => {
             their unique needs and bring their vision to life. I also need more
             money to feed my book addiction.
           </p>
-          <Button href="/downloadcv" white>
-            Download CV
-          </Button>
+          <a href="src/assets/Masego Dipela CV.pdf" download="Masego Dipela CV">
+            <Button href="src/assets/Masego Dipela CV.pdf" white>
+              Download CV
+            </Button>
+          </a>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">

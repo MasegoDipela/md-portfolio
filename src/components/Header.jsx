@@ -71,9 +71,14 @@ const Header = () => {
           <HamburgerMenu />
         </nav>
 
-        <Button className="hidden lg:flex" href="#hireme">
-          Hire Me
-        </Button>
+        <a href="mailto:dipelamasego@gmail.com">
+          <Button
+            className="hidden lg:flex"
+            href="mailto:dipelamasego@gmail.com"
+          >
+            Hire Me
+          </Button>
+        </a>
 
         <Button
           className="ml-auto lg:hidden w-10"

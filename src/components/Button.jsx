@@ -25,7 +25,7 @@ const Button = ({ className, href, onClick, children, px, white }) => {
 
   // Function to render a link element
   const renderLink = () => (
-    <a href={href} className={classes}>
+    <a href={href} className={classes} download="Masego Dipela CV.pdf">
       <span className={spanClasses}>{children}</span>
       {ButtonSvg(white)}
     </a>

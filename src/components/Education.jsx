@@ -7,7 +7,7 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Education = () => {
   return (
-    <Section id="features">
+    <Section id="education">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
@@ -44,7 +44,7 @@ const Education = () => {
 
               <div
                 className="absolute inset-0.5 bg-n-8"
-                style={{ clipPath: "url(#education)" }}
+                style={{ clipPath: "url(#benefits)" }}
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-20">
                   {item.imageUrl && (
