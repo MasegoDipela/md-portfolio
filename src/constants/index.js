@@ -29,6 +29,23 @@ import {
   twitter,
 } from "../assets";
 
+import abilogo from "../assets/company-logos/abi-logo.png";
+import abicertlogo from "../assets/company-logos/abicert-logo.png";
+import hashbitlogo from "../assets/company-logos/hashbit-logo.png";
+
+import mancosa from "../assets/education/mancosa.png";
+import harvard from "../assets/education/harvard.png";
+import google from "../assets/education/google.png";
+import hedera from "../assets/education/hedera.png";
+import michigan from "../assets/education/michigan.png";
+
+import html from "../assets/icons/html.png";
+import menu from "../assets/icons/menu.png";
+import nextjs from "../assets/icons/nextjs.png";
+import react from "../assets/icons/react.png";
+import sql from "../assets/icons/sql.png";
+import tailwind from "../assets/icons/tailwind.png";
+
 export const navigation = [
   {
     id: "0",
@@ -68,11 +85,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [
-  "src/assets/company-logos/logo1.png",
-  "src/assets/company-logos/logo2.png",
-  "src/assets/company-logos/logo3.png",
-];
+export const companyLogos = [abilogo, abicertlogo, hashbitlogo];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -158,28 +171,28 @@ export const collabApps = [
   {
     id: "0",
     title: "HTML5",
-    icon: "src/assets/icons/html.png",
+    icon: html,
     width: 28,
     height: 38,
   },
   {
     id: "1",
     title: "Tailwind",
-    icon: "src/assets/icons/tailwind.png",
+    icon: tailwind,
     width: 34,
     height: 36,
   },
   {
     id: "2",
     title: "React",
-    icon: "src/assets/icons/react.png",
+    icon: react,
     width: 36,
     height: 28,
   },
   {
     id: "3",
     title: "Nextjs",
-    icon: "src/assets/icons/nextjs.png",
+    icon: nextjs,
     width: 34,
     height: 35,
   },
@@ -200,7 +213,7 @@ export const collabApps = [
   {
     id: "6",
     title: "SQL",
-    icon: "src/assets/icons/sql.png",
+    icon: sql,
     width: 40,
     height: 34,
   },
@@ -256,7 +269,7 @@ export const education = [
     text: "The qualification aims to develop an integrated conceptual understanding, synthesis and application of information technology principles.",
     backgroundUrl: "assets/education/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: "src/assets/education/mancosa.png",
+    imageUrl: mancosa,
     status: "Completed in 2023",
     link: "https://www.mancosa.co.za/programme/higher-certificate-in-information-technology/",
   },
@@ -266,7 +279,7 @@ export const education = [
     text: "An accredited IT Management Degree will enable you to offer and manage business solutions through information supported technology.",
     backgroundUrl: "assets/education/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: "src/assets/education/mancosa.png",
+    imageUrl: mancosa,
     light: true,
     status: "In progress till 2026",
     link: "https://www.mancosa.co.za/programme/bachelor-of-commerce-in-information-and-technology-management/",
@@ -277,7 +290,7 @@ export const education = [
     text: "Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike.",
     backgroundUrl: "assets/education/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: "src/assets/education/harvard.png",
+    imageUrl: harvard,
     status: "Completed in 2023",
     link: "https://pll.harvard.edu/course/cs50-introduction-computer-science",
   },
@@ -287,7 +300,7 @@ export const education = [
     text: "This course by Google is designed to provide IT professionals with in-demand skills -- including Python, Git, and IT automation",
     backgroundUrl: "assets/education/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: "src/assets/education/google.png",
+    imageUrl: google,
     light: true,
     status: "Completed in 2022",
     link: "https://www.coursera.org/learn/python-crash-course",
@@ -298,7 +311,7 @@ export const education = [
     text: "an online course created by The Hashgraph Association and Swirlds Labs to create a path for those looking to build on distributed ledger technology/blockchain.",
     backgroundUrl: "assets/education/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: "src/assets/education/hedera.png",
+    imageUrl: hedera,
     status: "In progress till 2024",
     link: "https://hashgraphdev.com/",
   },
@@ -308,7 +321,7 @@ export const education = [
     text: "This specialization by the University of Michigan ensures the learner is able to explain concepts in payment technologies, cryptocurrency and blockchain, credit scores and technologies, and smart investing techniques.",
     backgroundUrl: "assets/education/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: "src/assets/education/michigan.png",
+    imageUrl: michigan,
     status: "Completed in 2021",
     link: "https://online.umich.edu/series/financial-technology-innovations/",
   },

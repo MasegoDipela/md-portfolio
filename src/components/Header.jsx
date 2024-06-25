@@ -6,6 +6,7 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HamburgerMenu } from "./design/Header";
 import { useState } from "react";
+import { devfolio } from "../assets";
 
 const Header = () => {
   const pathname = useLocation();
@@ -36,12 +37,7 @@ const Header = () => {
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <a className="block w-[12rem] xl:mr-8" href="#hero">
-          <img
-            src="src/assets/devfolio.png"
-            width={300}
-            height={150}
-            alt="Devfolio"
-          />
+          <img src={devfolio} width={300} height={150} alt="Devfolio" />
         </a>
 
         <nav

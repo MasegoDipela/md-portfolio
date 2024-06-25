@@ -1,4 +1,4 @@
-import { curve } from "../assets";
+import { curve, cv, hashbit, hashbitbg } from "../assets";
 import Button from "./Button";
 import Section from "./Section";
 
@@ -42,8 +42,8 @@ const Hero = () => {
             their unique needs and bring their vision to life. I also need more
             money to feed my book addiction.
           </p>
-          <a href="src/assets/Masego Dipela CV.pdf" download="Masego Dipela CV">
-            <Button href="src/assets/Masego Dipela CV.pdf" white>
+          <a href={cv} download="Masego Dipela CV">
+            <Button href={cv} white>
               Download CV
             </Button>
           </a>
@@ -55,7 +55,7 @@ const Hero = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src="src\assets\hero\Hashbit.png"
+                  src={hashbit}
                   className="sm:w-full w-full lg:scale-[1] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1014}
                   height={490}
@@ -86,7 +86,7 @@ const Hero = () => {
           </div>
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:w-[138%] lg:-top-[104%]">
             <img
-              src="src\assets\hero\Hashbit-background-2.png"
+              src={hashbitbg}
               className="w-full "
               width={1440}
               height={1800}

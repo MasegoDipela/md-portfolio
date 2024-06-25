@@ -36,11 +36,18 @@ import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
 
+import devfolio from "../assets/devfolio.png";
+
+import cv from "../assets/md-cv.pdf";
+import hashbit from "./hero/hashbit.png";
+import hashbitbg from "./hero/hashbit-bg.png";
+
 import akili from "./projects/akili.png";
 import akili2 from "./projects/akili2.png";
 import akili3 from "./projects/akili3.png";
 import akili4 from "./projects/akili4.png";
 import akili5 from "./projects/akili5.png";
+
 import abi from "./projects/abi.png";
 import abi2 from "./projects/abi2.png";
 import abi3 from "./projects/abi3.png";
@@ -83,6 +90,10 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  devfolio,
+  cv,
+  hashbit,
+  hashbitbg,
   akili,
   akili2,
   akili3,
