@@ -40,7 +40,6 @@ import hedera from "../assets/education/hedera.png";
 import michigan from "../assets/education/michigan.png";
 
 import html from "../assets/icons/html.png";
-import menu from "../assets/icons/menu.png";
 import nextjs from "../assets/icons/nextjs.png";
 import react from "../assets/icons/react.png";
 import sql from "../assets/icons/sql.png";

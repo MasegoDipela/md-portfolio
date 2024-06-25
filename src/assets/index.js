@@ -42,6 +42,8 @@ import cv from "../assets/md-cv.pdf";
 import hashbit from "./hero/hashbit.png";
 import hashbitbg from "./hero/hashbit-bg.png";
 
+import hashbitlogo from "../assets/hashbit-symbol.png";
+
 import akili from "./projects/akili.png";
 import akili2 from "./projects/akili2.png";
 import akili3 from "./projects/akili3.png";
@@ -94,6 +96,7 @@ export {
   cv,
   hashbit,
   hashbitbg,
+  hashbitlogo,
   akili,
   akili2,
   akili3,

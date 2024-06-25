@@ -1,4 +1,4 @@
-import { check } from "../assets";
+import { check, hashbitlogo } from "../assets";
 import { collabApps, collabContent, collabText } from "../constants";
 
 import Section from "./Section";
@@ -38,11 +38,7 @@ const Skills = () => {
             <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full ">
-                  <img
-                    src="src\assets\hashbit-symbol.png"
-                    width={48}
-                    height={48}
-                  />
+                  <img src={hashbitlogo} width={48} height={48} />
                 </div>
               </div>
             </div>
